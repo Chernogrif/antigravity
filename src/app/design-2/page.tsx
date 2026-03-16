@@ -4,7 +4,7 @@ import { ArrowRight, ChevronRight, Phone, Mail, Building2, Map, HardHat, FileTex
 import { useAdmin } from '@/components/AdminProvider';
 import { createClient } from '@/utils/supabase/client';
 
-export default function Home() {
+export default function DesignTwo() {
   const { openLoginModal } = useAdmin();
   const [activeService, setActiveService] = useState<{title: string, desc: string, details: string} | null>(null);
   const [isJobsModalOpen, setIsJobsModalOpen] = useState(false);
